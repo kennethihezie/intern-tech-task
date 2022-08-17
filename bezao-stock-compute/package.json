@@ -1,0 +1,49 @@
+{
+  "name": "banking-site",
+  "version": "1.0.0",
+  "description": "banking site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "14.16.1"
+  },
+  "author": "collins",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "firebase": "^9.6.1",
+    "flutterwave-node-v3": "^1.0.9",
+    "handlebars": "^4.7.7",
+    "http-msgs": "^1.0.9",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^3.2.10",
+    "nodemailer": "^6.7.2",
+    "serve-favicon": "^2.5.0",
+    "shortid": "^2.2.16",
+    "yahoo-stock-prices": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@webpack-cli/generators": "^2.4.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0",
+    "workbox-webpack-plugin": "^6.4.2"
+  }
+}
